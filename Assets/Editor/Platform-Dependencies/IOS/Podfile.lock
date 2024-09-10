@@ -1,0 +1,41 @@
+PODS:
+  - Protobuf (3.12.0)
+  - UnityAds (4.4.1)
+  - UnityMediationAdapter (3.0.2):
+    - UnityMediationLogging (~> 1.0)
+  - UnityMediationLogging (1.0.1)
+  - UnityMediationSdk (1.0.1):
+    - Protobuf (~> 3.12.0)
+    - UnityMediationAdapter (~> 3.0)
+    - UnityMediationLogging (~> 1.0)
+  - UnityMediationUnityAdapter (1.0.0):
+    - UnityAds (~> 4.1)
+    - UnityMediationAdapter (~> 3.0)
+    - UnityMediationSdk (>= 0.5)
+
+DEPENDENCIES:
+  - Protobuf
+  - UnityMediationSdk (~> 1.0)
+  - UnityMediationUnityAdapter
+
+SPEC REPOS:
+  https://github.com/Unity-Technologies/unity-mediation-cocoapods-prod.git:
+    - UnityMediationSdk
+    - UnityMediationUnityAdapter
+  trunk:
+    - Protobuf
+    - UnityAds
+    - UnityMediationAdapter
+    - UnityMediationLogging
+
+SPEC CHECKSUMS:
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  UnityAds: 1af6c4fdd7030c2593c58f520504e167561175ab
+  UnityMediationAdapter: 92d76b74095cbd485c03d96115e9201e5b46fbf7
+  UnityMediationLogging: 1a62837a67e0fbef4656c17520abdaea17fc5c0a
+  UnityMediationSdk: 698930bd581fa117faa81e6a637e16104bc18717
+  UnityMediationUnityAdapter: 4b0c00cc3d630507d86b8dd2d33517504ecc5f43
+
+PODFILE CHECKSUM: 0db76ca07ab7a2a9d84441df94ca1a384ee2a72b
+
+COCOAPODS: 1.11.3
